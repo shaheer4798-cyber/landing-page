@@ -1,0 +1,29 @@
+.grid-container{
+    border: 1px solid black;
+    display: grid;
+}
+
+.grid-item{border: 1px solid black;
+min-height: 100px;}
+
+.header{
+    grid-column: 1/5;
+    display: flex; align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{ display: flex; list-style: none; gap: 20px;}
+
+.left{
+    grid-column: 1/2;
+}
+
+.right{
+    grid-column: 2/5;
+}
+
+.footer{grid-column: 1/5;}
